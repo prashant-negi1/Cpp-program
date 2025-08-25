@@ -6,6 +6,7 @@ int x;
 cout<<"enter the year which you want to you check whether it's a leap year or not: ";
 cin>>x;
 // first we need to check the year is divisible by 400 or not. 
+// if a year is divisible by 400, then no need to check further it's a leap year.
 if(x%400==0){
     cout<<x<<" is a leap year";
 
